@@ -15,7 +15,7 @@ clear
 printf "\n \e[1;92mDizin \e[1;94mShellPhish\e[1;92m güncelleniyor ...\n\n"
 sleep 1.5
 cd ..
-rm -rf ShellPhish
+rm -rf whyshell-
 git clone https://github.com/whyemre/whyshell-
 cd whyshell-
 chmod +x *
