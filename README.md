@@ -41,13 +41,10 @@ bash update.sh
 ### Not:
 **Bu geliştirme aşamasındadır. Eğer dışında herhangi bir sorun bulursanız, lütfen bunları bildirin. Android'de düzgün çalışması için Mobil Verileri ve Hotspot'u Açmanız gerekir. Mobil Veri ve Hotspot olmadan bazen Kimlik Avı URL'si üretmez.**
 
+
 ## Yasal sorumluluk reddi:
 ***Shellphish'in önceden karşılıklı izin alınmadan hedeflere saldırmak için kullanılması yasa dışıdır. Geçerli tüm yerel, eyalet ve federal yasalara uymak son kullanıcının sorumluluğundadır. Geliştiriciler hiçbir sorumluluk kabul etmez ve bu programın neden olduğu herhangi bir kötüye kullanım veya hasardan sorumlu değildir.***
 
-
-<p align="left">
-<a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
-</p>
 
 ## Takip et:
 <p align="left">
