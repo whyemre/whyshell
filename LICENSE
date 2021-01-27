@@ -1,21 +1,20 @@
 MIT License
 
-Copyright (c) 2020 Abir Hasan
+Copyright (c) 2020 Whyemre
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Bu vesileyle, bir kopyasını alan herhangi bir kişiye ücretsiz olarak izin verilmektedir.
+bu yazılımın ve ilgili belge dosyalarının ("Yazılım")
+Yazılımda, haklar dahil ancak bunlarla sınırlı olmamak üzere, kısıtlama olmaksızın
+kullanmak, kopyalamak, değiştirmek, birleştirmek, yayınlamak, dağıtmak, alt lisans vermek ve / veya satmak
+Yazılımın kopyaları ve Yazılımın bulunduğu kişilere izin vermek için
+aşağıdaki koşullara tabi olarak bu şekilde döşenmiştir:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi tüm
+Yazılımın kopyaları veya önemli bölümleri.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+YAZILIM AÇIK VEYA HERHANGİ BİR GARANTİ OLMAKSIZIN "OLDUĞU GİBİ" SAĞLANMAKTADIR.
+ZIMNİ, SATILABİLİRLİK GARANTİLERİ DAHİL ANCAK BUNLARLA SINIRLI OLMAYAN
+BELİRLİ BİR AMACA UYGUNLUK VE İHLAL ETMEME. HİÇBİR DURUMDA
+YAZARLAR VEYA TELİF HAKKI SAHİPLERİ HERHANGİ BİR TALEP, ZARAR VEYA DİĞER
+SÖZLEŞME, HAKİM VEYA BAŞKA ŞEKİLDE KAYNAKLANAN SORUMLULUK,
+YAZILIM VEYA KULLANIM VEYA DİĞER ANLAŞMALARLA BAĞLANTILI YA DA YAZILIM.
