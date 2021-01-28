@@ -24,9 +24,6 @@
 - Hatalar temizlendi
 - URL'nin gösterilmemesi düzeltildi
 
-! [Ekran Görüntüsü] (screenshot.png)
-
-! [Screenshot_FB] (screenshot_fb.png)
 
 ### Kullanım:
 ```bash
@@ -41,10 +38,6 @@ bash update.sh
 
 ### Not:
 **Bu geliştirme aşamasındadır. Eğer dışında herhangi bir sorun bulursanız, lütfen bunları bildirin. Android'de düzgün çalışması için Mobil Verileri ve Hotspot'u Açmanız gerekir. Mobil Veri ve Hotspot olmadan bazen Kimlik Avı URL'si üretmez.**
-
-
-## Yasal sorumluluk reddi:
-***Shellphish'in önceden karşılıklı izin alınmadan hedeflere saldırmak için kullanılması yasa dışıdır. Geçerli tüm yerel, eyalet ve federal yasalara uymak son kullanıcının sorumluluğundadır. Geliştiriciler hiçbir sorumluluk kabul etmez ve bu programın neden olduğu herhangi bir kötüye kullanım veya hasardan sorumlu değildir.***
 
 
 ## Takip et:
