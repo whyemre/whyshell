@@ -12,7 +12,7 @@ command -v git > /dev/null 2>&1 || { echo >&2 "GIT paketi kurulu değil ... Gün
 script() {
 
 clear
-printf "\n \e[1;92mDizin \e[1;94mShellPhish\e[1;92m güncelleniyor ...\n\n"
+printf "\n \e[1;92mDizin \e[1;94mWhyShell\e[1;92m güncelleniyor ...\n\n"
 sleep 1.5
 cd ..
 rm -rf whyshell-
