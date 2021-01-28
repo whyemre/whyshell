@@ -30,12 +30,12 @@
 
 ### Kullanım:
 ```bash
-apt update && apt upgrade -y && apt install git wget php unzip curl -y && git clone https://github.com/whyemre/whyshell- && cd whyshell- && chmod +x * && bash shellphish.sh
+apt update && apt upgrade -y && apt install git wget php unzip curl -y && git clone https://github.com/whyemre/whyshell- && cd whyshell- && chmod +x * && bash whyshell.sh
 ```
 
 ## Nasıl Güncellenir:
 ```bash
-cd ShellPhish
+cd whyshell
 bash update.sh
 ```
 
