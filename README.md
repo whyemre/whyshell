@@ -35,7 +35,7 @@ apt update && apt upgrade -y && apt install git wget php unzip curl -y && git cl
 
 ## Nasıl Güncellenir:
 ```bash
-cd whyshell
+cd whyshell-
 bash update.sh
 ```
 
