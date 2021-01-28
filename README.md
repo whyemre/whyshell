@@ -1,5 +1,4 @@
-# forum.ayyildiz.org
-# by whyemre
+**forum.ayyildiz.org**
 
 ## Mevcut sitelerin listesi:
 ```
